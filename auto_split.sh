@@ -1,6 +1,7 @@
 #!/bin/bash
+# USAGE: bash auto_split.sh train.csv 10
+# to split training datafile into 10 parts
 
-# split datafile into 10 parts
 file=$1
 N=$2
 out_name="${file%.*}"
